@@ -1,4 +1,4 @@
-prefix=prefix=${pcfiledir}/../..
+prefix=${pcfiledir}/../..
 exec_prefix=${prefix}
 bindir=${prefix}/bin
 libdir=${prefix}/lib
