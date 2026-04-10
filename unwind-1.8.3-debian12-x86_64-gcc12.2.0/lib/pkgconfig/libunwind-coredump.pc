@@ -1,0 +1,11 @@
+prefix=/home/wensisi.0427/cpp3rdlib/libunwind/../unwind
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libunwind-coredump
+Description: libunwind coredump library
+Version: 1.8.3
+Requires: libunwind-generic libunwind
+Libs: -L${libdir} -lunwind-coredump
+Cflags: -I${includedir}
