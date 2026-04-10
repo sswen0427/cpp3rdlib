@@ -1,4 +1,4 @@
-prefix=/home/wensisi.0427/cpp3rdlib/sentencepiece/build/sentencepiece_install
+prefix=${pcfiledir}/../..
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

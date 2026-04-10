@@ -1,4 +1,4 @@
-prefix=/home/wensisi.0427/test_library/gflags/build/gflags_install
+prefix=prefix=${pcfiledir}/../..
 exec_prefix=${prefix}
 bindir=${prefix}/bin
 libdir=${prefix}/lib
