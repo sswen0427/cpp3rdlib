@@ -1,4 +1,4 @@
-prefix=/home/wensisi.0427/cpp3rdlib/libunwind/../unwind
+prefix=${pcfiledir}/../..
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
