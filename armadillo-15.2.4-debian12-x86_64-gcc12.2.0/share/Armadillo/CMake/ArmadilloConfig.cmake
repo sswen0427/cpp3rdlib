@@ -5,11 +5,12 @@
 #  ARMADILLO_LIBRARIES    - libraries to link against
 
 # Tell the user project where to find our headers and libraries
-set(ARMADILLO_INCLUDE_DIRS "/home/wensisi.0427/cpp3rdlib/armadillo-code/build/armadillo_install/include")
-set(ARMADILLO_LIBRARY_DIRS "/home/wensisi.0427/cpp3rdlib/armadillo-code/build/armadillo_install/lib64")
+get_filename_component(ARMA_ROOT_DIR "${CMAKE_CURRENT_LIST_DIR}/../../../" ABSOLUTE)
+set(ARMADILLO_INCLUDE_DIRS "${ARMA_ROOT_DIR}/include")
+set(ARMADILLO_LIBRARY_DIRS "${ARMA_ROOT_DIR}/lib64")
 
 # Our library dependencies (contains definitions for IMPORTED targets)
-include("/home/wensisi.0427/cpp3rdlib/armadillo-code/build/armadillo_install/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
+include("${ARMA_ROOT_DIR}/share/Armadillo/CMake/ArmadilloLibraryDepends.cmake")
 
 # These are IMPORTED targets created by ArmadilloLibraryDepends.cmake
 set(ARMADILLO_LIBRARIES armadillo)

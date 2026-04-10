@@ -378,5 +378,5 @@
 // ARMA_AUX_LIBS lists the libraries required by Armadillo on this system, and
 // ARMA_AUX_INCDIRS lists the include directories required by Armadillo on this system.
 // Do not use these unless you know what you are doing.
-#define ARMA_AUX_LIBS /home/wensisi.0427/cpp3rdlib/openblas-0.3.32-debian12-x86_64-gcc12.2.0/lib64/libopenblas.a
+#define ARMA_AUX_LIBS
 #define ARMA_AUX_INCDIRS 

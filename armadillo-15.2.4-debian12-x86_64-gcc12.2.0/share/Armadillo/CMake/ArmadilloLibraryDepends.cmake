@@ -60,7 +60,7 @@ add_library(armadillo SHARED IMPORTED)
 
 set_target_properties(armadillo PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/home/wensisi.0427/cpp3rdlib/openblas-0.3.32-debian12-x86_64-gcc12.2.0/lib64/libopenblas.a"
+  INTERFACE_LINK_LIBRARIES "OpenBLAS::OpenBLAS"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
