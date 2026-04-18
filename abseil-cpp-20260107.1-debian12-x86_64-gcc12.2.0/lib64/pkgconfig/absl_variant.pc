@@ -1,0 +1,12 @@
+prefix=/home/wensisi.0427/cpp3rdlib/abseil-cpp/build/abseil-cpp_install
+exec_prefix=${prefix}
+libdir=/home/wensisi.0427/cpp3rdlib/abseil-cpp/build/abseil-cpp_install/lib64
+includedir=/home/wensisi.0427/cpp3rdlib/abseil-cpp/build/abseil-cpp_install/include
+
+Name: absl_variant
+Description: Abseil variant library
+URL: https://abseil.io/
+Version: 20260107
+Requires: absl_config = 20260107, absl_utility = 20260107
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX
