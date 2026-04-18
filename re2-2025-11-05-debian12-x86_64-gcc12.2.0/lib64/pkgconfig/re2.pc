@@ -1,5 +1,7 @@
-includedir=/home/wensisi.0427/cpp3rdlib/re2/build/re2_install/include
-libdir=/home/wensisi.0427/cpp3rdlib/re2/build/re2_install/lib64
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib64
+includedir=${prefix}/include
 
 Name: re2
 Description: RE2 is a fast, safe, thread-friendly regular expression engine.
